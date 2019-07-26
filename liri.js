@@ -100,6 +100,11 @@ function doThis(value) {
       var arrData = data.split(',');
       command = arrData[0];
       value = arrData[1];
-      spotifySong(arrData, arrData);
+      if (command == "spotify-this-song")
+      spotifySong(value);
+      if (command == "movie-this")
+      movieThis(value);
+      if (command == "concert-this")
+      concertThis(value);
   })
 }
