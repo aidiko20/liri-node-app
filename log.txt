@@ -18,4 +18,8 @@ Date: 08/31/2019----------------------------------------------------------------
 Name: Curacao North Sea Jazz Festival
 Country: Netherlands Antilles
 City: Willemstad, Curaçao
+Date: 08/31/2019--------------------------------------------------------------------
+Name: Curacao North Sea Jazz Festival
+Country: Netherlands Antilles
+City: Willemstad, Curaçao
 Date: 08/31/2019

@@ -9,7 +9,7 @@ moment().format();
 var axios = require('axios');
 var fs = require('fs');
 var command = process.argv[2];
-var value = process.argv[3];
+var value = process.argv.slice(3).join(" ");
 
 // Switch command add new var for function 
 switch (command) {
@@ -26,6 +26,7 @@ switch (command) {
     doThis(value);
     break;
 };
+// function for concert-this
 function concertThis(value) {
   axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
     .then(function (response) {
@@ -43,7 +44,7 @@ function concertThis(value) {
     console.log(err);
   });
 };
-
+// function for spotify-this-song
 function spotifySong(value) {
   if (!value) {
     value = "The Sign";
@@ -66,6 +67,7 @@ function spotifySong(value) {
       console.log(err);
     });
 }
+// function for movie-this
 function movieThis(value) {
   if (!value) {
     value = "mr nobody";
@@ -90,5 +92,14 @@ function movieThis(value) {
         });
     })
 }
+// function for do-this
+function doThis(value) {
 
-
+  fs.readFile("random.txt", "utf8", function(err, data) {
+      if (err) {
+          return console.log(err);
+      }
+      var arrData = data.split(',');
+      spotifySong(arrData[0], arrData[1]);
+  })
+}
