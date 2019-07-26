@@ -26,18 +26,44 @@ switch (command) {
     doThis(value);
     break;
 };
-function concertThis(value){
+function concertThis(value) {
   axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
-  .then(function(response){
-    // if(response.data[0].value)
-    // console.log(response.data[0]);
-    console.log("Name: "+response.data[0].venue.name + " Country: " + response.data[0].venue.country + " City: " +response.data[0].venue.city);
-    console.log(response.data[0].datetime)
-      
-  })
+    .then(function (response) {
+      var concertData = 
+      "Name: " + response.data[0].venue.name + 
+      "\nCountry: " + response.data[0].venue.country + 
+      "\nCity: " + response.data[0].venue.city + 
+      "\nDate: " + response.data[0].datetime
+      fs.appendFile("log.txt", concertData, function (err) {
+        console.log(concertData);
+      })
+    })
 };
-// Function for music data
-function spotifySong(value){
-  axios.get("")
-  
+function movieThis(value) {
+  if(!value){
+    value = "mr nobody";
 }
+  axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&apikey=trilogy")
+    .then(function (response) {
+      var dataMovie = 
+      "Title: " + response.data.Title + 
+      "\nRelease Year: " + response.data.Release + 
+      "\nIMDB Rating: " + response.data.imdbRating + 
+      "\nRotten Tomatos Rating: " + response.data.Ratings.Value + 
+      "\nProduction Country: " + response.data.Country + 
+      "\nLanguage: " + response.data.Language + 
+      "\nThe Plot: " + response.data.Plot + 
+      "\nActors: " + response.data.Actors
+      fs.appendFile("log.txt", dataMovie, function (err) {
+        console.log(dataMovie);
+            })
+            .catch(function (error) {
+              console.log(error);
+    });
+})
+}
+// Function for music data
+// function spotifySong(value){
+//   axios.get("")
+
+
