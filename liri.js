@@ -11,7 +11,7 @@ var fs = require('fs');
 var command = process.argv[2];
 var value = process.argv[3];
 
-// Switch command
+// Switch command add new var for function 
 switch (command) {
   case "concert-this":
     concertThis(value);
@@ -26,3 +26,18 @@ switch (command) {
     doThis(value);
     break;
 };
+function concertThis(value){
+  axios.get("https://rest.bandsintown.com/artists/" + value + "/events?app_id=codingbootcamp")
+  .then(function(response){
+    // if(response.data[0].value)
+    // console.log(response.data[0]);
+    console.log("Name: "+response.data[0].venue.name + " Country: " + response.data[0].venue.country + " City: " +response.data[0].venue.city);
+    console.log(response.data[0].datetime)
+      
+  })
+};
+// Function for music data
+function spotifySong(value){
+  axios.get("")
+  
+}
