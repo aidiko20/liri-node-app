@@ -46,4 +46,10 @@ This will show the following information about the song in your terminal/bash wi
  *4. DO-this*
 	 It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
 
+##Technologies used##
+1. Node.js
+2. Spotify API
+3. Axios
+4. Package JSON
 
+##Contributor Aida Yrysbekova##
