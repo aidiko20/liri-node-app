@@ -22,4 +22,50 @@ Date: 08/31/2019----------------------------------------------------------------
 Name: Curacao North Sea Jazz Festival
 Country: Netherlands Antilles
 City: Willemstad, Curaçao
-Date: 08/31/2019
+Date: 08/31/2019--------------------------------------------------------------------
+Name: Curacao North Sea Jazz Festival
+Country: Netherlands Antilles
+City: Willemstad, Curaçao
+Date: 08/31/2019--------------------------------------------------------------------Title: Forrest Gump
+Release Year: undefined
+IMDB Rating: 8.8
+Rotten Tomatos Rating: undefined
+Production Country: USA
+Language: English
+The Plot: The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
+Actors: Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys--------------------------------------------------------------------Title: Matrix
+Release Year: undefined
+IMDB Rating: 8.2
+Rotten Tomatos Rating: undefined
+Production Country: Canada
+Language: English
+The Plot: Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
+Actors: Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon--------------------------------------------------------------------Title: Matrix
+Release Year: undefined
+IMDB Rating: 8.2
+Rotten Tomatos Rating: undefined
+Production Country: Canada
+Language: English
+The Plot: Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
+Actors: Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon--------------------------------------------------------------------Title: Matrix
+Release Year: 1993–
+IMDB Rating: 8.2
+Rotten Tomatos Rating: undefined
+Production Country: Canada
+Language: English
+The Plot: Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix "dies" and finds ...
+Actors: Nick Mancuso, Phillip Jarrett, Carrie-Anne Moss, John Vernon--------------------------------------------------------------------Title: Forrest Gump
+Release Year: 1994
+IMDB Rating: 8.8
+Rotten Tomatos Rating: undefined
+Production Country: USA
+Language: English
+The Plot: The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
+Actors: Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys--------------------------------------------------------------------Title: Forrest Gump
+Release Year: 1994
+IMDB Rating: 8.8
+Rotten Tomatos Rating: 72%
+Production Country: USA
+Language: English
+The Plot: The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.
+Actors: Tom Hanks, Rebecca Williams, Sally Field, Michael Conner Humphreys

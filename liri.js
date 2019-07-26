@@ -52,7 +52,6 @@ function spotifySong(value) {
   spotify
     .search({ type: 'track', query: value })
     .then(function (response) {
-      for (var i = 0; i < 5; i++) {
         var dataSpotify =
           "--------------------------------------------------------------------" +
           "\nArtist(s): " + response.tracks.items[0].artists[0].name +
@@ -61,8 +60,7 @@ function spotifySong(value) {
           "\nPreview Link: " + response.tracks.items[0].preview_url;
 
         console.log(dataSpotify);
-      }
-    })
+      })
     .catch(function (err) {
       console.log(err);
     });
@@ -77,9 +75,9 @@ function movieThis(value) {
       var dataMovie =
         "--------------------------------------------------------------------" +
         "Title: " + response.data.Title +
-        "\nRelease Year: " + response.data.Release +
+        "\nRelease Year: " + response.data.Year +
         "\nIMDB Rating: " + response.data.imdbRating +
-        "\nRotten Tomatos Rating: " + response.data.Ratings.Value +
+        "\nRotten Tomatos Rating: " + response.data.Ratings[1].Value +
         "\nProduction Country: " + response.data.Country +
         "\nLanguage: " + response.data.Language +
         "\nThe Plot: " + response.data.Plot +
@@ -100,6 +98,8 @@ function doThis(value) {
           return console.log(err);
       }
       var arrData = data.split(',');
-      spotifySong(arrData[0], arrData[1]);
+      command = arrData[0];
+      value = arrData[1];
+      spotifySong(arrData, arrData);
   })
 }
