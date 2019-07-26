@@ -55,10 +55,10 @@ function spotifySong(value) {
       for (var i = 0; i < 5; i++) {
         var dataSpotify =
           "--------------------------------------------------------------------" +
-          "\nArtist(s): " + response.tracks.items[i].artists[0].name +
-          "\nSong Name: " + response.tracks.items[i].name +
-          "\nAlbum Name: " + response.tracks.items[i].album.name +
-          "\nPreview Link: " + response.tracks.items[i].preview_url;
+          "\nArtist(s): " + response.tracks.items[0].artists[0].name +
+          "\nSong Name: " + response.tracks.items[0].name +
+          "\nAlbum Name: " + response.tracks.items[0].album.name +
+          "\nPreview Link: " + response.tracks.items[0].preview_url;
 
         console.log(dataSpotify);
       }
